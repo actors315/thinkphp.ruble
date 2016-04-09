@@ -5,19 +5,16 @@ just do it
 
 # 安装
 打开Terminal,切换到Aptana Rubles目录  
-`
-cd ~  
-cd Aptana\ Rubles/  
-git clone https://github.com/actors315/thinkphp.ruble.git
-`
+  cd ~  
+  cd Aptana\ Rubles/  
+  git clone https://github.com/actors315/thinkphp.ruble.git
 
 # 更新
-`
-cd ~  
-cd Aptana\ Rubles/  
-cd thinkphp.ruble/  
-git pull
-`
+  cd ~  
+  cd Aptana\ Rubles/  
+  cd thinkphp.ruble/  
+  git pull
+
 # 使用
 
 
