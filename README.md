@@ -5,18 +5,20 @@ just do it
 
 # 安装
 打开Terminal,切换到Aptana Rubles目录  
-  cd ~  
-  cd Aptana\ Rubles/  
-  git clone https://github.com/actors315/thinkphp.ruble.git
-
+```
+cd ~
+cd Aptana\ Rubles/
+git clone https://github.com/actors315/thinkphp.ruble.git
+```
 # 更新
-  cd ~  
-  cd Aptana\ Rubles/  
-  cd thinkphp.ruble/  
-  git pull
-
+```
+cd ~
+cd Aptana\ Rubles/
+cd thinkphp.ruble/
+git pull
+```
 # 使用
-
+  
 
 # NOTE
 这样安装后可以使用相应的快捷指令。但是我们定义的template没办法出现在File->New From Template列表中，在官网的文档中也没找到解决方法，
