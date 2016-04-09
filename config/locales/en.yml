@@ -4,3 +4,5 @@ en:
   docs_for_word: 'Documentation for Word'
   declarations: 'Declarations'
   tp_object : 'Thinkphp Project'
+  tp_controller : 'Tp controller'
+  tp_model : 'Tp model'
