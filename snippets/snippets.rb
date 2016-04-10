@@ -22,7 +22,7 @@ with_defaults :scope => 'thinkphp.php' do
   
   snippet "$this->assign(\'...\')" do |snip|
     snip.trigger = 'assign'
-    snip.expansion = '\$this->load->model(\'${1:name}\',\'${2:value}\')'
+    snip.expansion = '\$this->assign(\'${1:name}\',\'${2:value}\')'
   end
   
 end
