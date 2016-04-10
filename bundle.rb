@@ -14,10 +14,14 @@ bundle t(:bundle_name) do |bundle|
   bundle.menu t(:bundle_name) do |main_menu|
     main_menu.command t(:docs_for_word)
     main_menu.separator
-    main_menu.menu t(:declarations) do |submenu|
+    main_menu.menu t(:test_snippets) do |submenu|
       submenu.command 'First snippet'
       submenu.command 'Second snippet'
       submenu.command 'Third snippet'
+    end
+    main_menu.menu t(:System_Library) do |submenu|
+      submenu.command '$this->display()'
+      submenu.command '$this->assign(\'...\')'
     end    
   end  
 end
