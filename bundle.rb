@@ -9,25 +9,23 @@ bundle t(:bundle_name) do |bundle|
   
   start_folding = /(\/\*|\{\s*$|<<<HTML)/
   end_folding = /(\*\/|^\s*\}|^HTML;)/
-  bundle.folding['thinkphp.php'] = start_folding, end_folding
+  bundle.folding['source.php'] = start_folding, end_folding
   
   bundle.menu t(:bundle_name) do |main_menu|
-    main_menu.command t(:docs_for_word)
-    main_menu.separator
     main_menu.menu t(:test_snippets) do |submenu|
       submenu.command 'First snippet'
       submenu.command 'Second snippet'
       submenu.command 'Third snippet'
     end
-    main_menu.menu t(:System_Library) do |submenu|
+    main_menu.menu t(:system_library) do |submenu|
       submenu.command '$this->display()'
       submenu.command '$this->assign(\'...\')'
-    end    
-  end  
+    end
+  end
 end
 
 # Special ENV vars for PHP scope
-env 'thinkphp.php' do |e|
+env 'source.php' do |e|
   e['TM_COMMENT_START'] = '// '
   e.delete('TM_COMMENT_END')
   e['TM_COMMENT_START_2'] = '# '

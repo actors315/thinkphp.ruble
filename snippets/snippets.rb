@@ -1,4 +1,4 @@
-with_defaults :scope => 'thinkphp.php' do
+with_defaults :scope => 'source.php' do
   
   snippet "First snippet" do |snip|
     snip.trigger = 'first'
