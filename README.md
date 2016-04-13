@@ -22,6 +22,7 @@ git pull
 | ------------------ |:-------------:|
 | $this->display()   | display		 |
 | $this->assign('',) | assign	     |
+待完善...
 
 ## NOTE
 这样安装后可以使用相应的快捷指令。但是我们定义的template没办法出现在File->New From Template列表中，在官网的文档中也没找到解决方法，
